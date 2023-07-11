@@ -17,9 +17,10 @@ eeg_classification.ipynb contains the main codes for data loading, data preproce
 
 ## Performance
 The accuracy trajectory during training, average accuracy of individual subjects and confusion matrix of classification accuracy of each class are shown as a, b, c for all three models. Interestingly, CNN has the best performance with accuracy of 0.7054 in rather confined training epochs among these three models, although the other two have more complicated architectures. <br>
+<br> 
 CNN <br>
-<img src="./CNN_performance.png" alt="alt text" width="1000" height="250"> <br>
+<img src="./CNN_performance.png" alt="alt text" width="1000" height="300"> <br>
 CNN-LSTM <br>
-<img src="./CNN-LSTM_performance.png" alt="alt text" width="1000" height="250"> <br>
+<img src="./CNN-LSTM_performance.png" alt="alt text" width="1000" height="300"> <br>
 CNN-Transformer <br>
-<img src="./CNN-Transformer_performance.png" alt="alt text" width="1000" height="250"> <br>
+<img src="./CNN-Transformer_performance.png" alt="alt text" width="1000" height="300"> <br>
