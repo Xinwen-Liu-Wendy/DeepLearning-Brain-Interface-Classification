@@ -13,7 +13,7 @@ arXiv [eess.SP] (2021).) <br>
 <img src="./model_architecture.png" alt="alt text" width="1000" height="250"> <br>
 
 ## Codes
-eeg_classification.ipynb contains the main codes for data loading, data preprocessing, model construction and model evaluation for all thre models.
+eeg_classification.ipynb contains the main codes for data loading, data preprocessing, model construction and model evaluation for all three models.
 
 ## Performance
 The accuracy trajectory during training, average accuracy of individual subjects and confusion matrix of classification accuracy of each class are shown as a, b, c for all three models. Interestingly, CNN has the best performance with accuracy of 0.7054 in rather confined training epochs among these three models, although the other two have more complicated architectures. <br>
