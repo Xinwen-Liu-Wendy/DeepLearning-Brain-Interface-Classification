@@ -1,4 +1,4 @@
-# DeepLearning-Brain-Interface-Classification
+# DeepLearning-Brain-Computer-Interface-Classification
 Electroencephalogram (EEG) motor imagery (MI) is among the most common brain–computer interface (BCI) paradigms used extensively in smart healthcare applications such as poststroke rehabilitation. In this project, I built three deep learning models for the classification of MI-EEG signals, including convolutional neuron network (CNN), hybrid CNN-LSTM model and CNN-Transformer model. Interestingly, CNN has the best performance with accuracy of 0.7054 in rather confined training epochs among these three models, although the other two have more complicated architectures. For parameter tuning, it was found that learning rate decay, increasing the hidden units of LSTM and learning rate scheduling are generally helpful to increase the model accuracy.
 
 ## Dataset
